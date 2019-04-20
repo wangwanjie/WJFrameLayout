@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WJFrameLayout_Example' do
+  pod 'WJFrameLayout', :path => '../'
+
+  target 'WJFrameLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

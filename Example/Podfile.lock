@@ -1,0 +1,16 @@
+PODS:
+  - WJFrameLayout (0.1.0)
+
+DEPENDENCIES:
+  - WJFrameLayout (from `../`)
+
+EXTERNAL SOURCES:
+  WJFrameLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WJFrameLayout: aae476b0f635ac372fb198ffa2a7ab7f40382b99
+
+PODFILE CHECKSUM: 49b2afdbc28849c3351ffee51fc75ed3af1180ad
+
+COCOAPODS: 1.6.1
