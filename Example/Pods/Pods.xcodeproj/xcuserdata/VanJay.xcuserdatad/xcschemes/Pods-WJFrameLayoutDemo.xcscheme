@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "785904449E28FE1AB2DB415A90012E1B"
-               BuildableName = "libWJFrameLayout.a"
-               BlueprintName = "WJFrameLayout"
+               BlueprintIdentifier = "553FDA9F72BBE54DFEFF0842EB365E43"
+               BuildableName = "libPods-WJFrameLayoutDemo.a"
+               BlueprintName = "Pods-WJFrameLayoutDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
