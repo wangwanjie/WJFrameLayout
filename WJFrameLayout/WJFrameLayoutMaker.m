@@ -223,7 +223,10 @@ static NSString *const kWJFrameLayoutKeyCenter = @"kWJFrameLayoutKeyCenter";
 }
 
 - (WJFrameLayoutMaker * (^)(CGFloat offset))offset {
+    return [self wj_offset];
+}
 
+- (WJFrameLayoutMaker *_Nonnull (^)(CGFloat))wj_offset {
     return ^id(CGFloat offset) {
         NSMutableDictionary *tempDictionary;
 

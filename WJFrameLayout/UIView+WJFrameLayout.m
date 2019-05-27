@@ -121,15 +121,17 @@
 }
 
 - (UIViewController *)viewController {
-    id nextResponder = [self nextResponder];
-    if ([nextResponder isKindOfClass:[UIViewController class]]) {
-        return (UIViewController *)nextResponder;
-    } else {
-        return nil;
+    UIView *next = self;
+    while ((next = [next superview])) {
+        UIResponder *nextResponder = [next nextResponder];
+        if ([nextResponder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)nextResponder;
+        }
     }
+    return nil;
 }
 
-- (void)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius {
+- (CAShapeLayer *)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius {
     CGRect rect = self.bounds;
 
     // Create the path
@@ -144,9 +146,10 @@
 
     // Set the newly created shape layer as the mask for the view's layer
     self.layer.mask = maskLayer;
+    return maskLayer;
 }
 
-- (void)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor {
+- (CAShapeLayer *)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor {
     [self setRoundedCorners:corners radius:radius];
 
     CGRect rect = self.bounds;
@@ -162,6 +165,25 @@
     borderLayer.fillColor = [UIColor clearColor].CGColor;
     borderLayer.strokeColor = borderColor.CGColor;
     borderLayer.lineWidth = borderWidth;
-    [self.layer addSublayer:borderLayer];
+    [self.layer insertSublayer:borderLayer atIndex:0];
+    return borderLayer;
+}
+
+- (CAShapeLayer *)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius shadowRadius:(CGFloat)shadowRadius shadowOpacity:(float)shadowOpacity shadowColor:(CGColorRef)shadowColor fillColor:(CGColorRef)fillColor shadowOffset:(CGSize)shadowOffset {
+    CGRect bounds = self.bounds;
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:bounds
+                                                   byRoundingCorners:corners
+                                                         cornerRadii:CGSizeMake(radius, radius)];
+
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    maskLayer.frame = bounds;
+    maskLayer.path = maskPath.CGPath;
+    maskLayer.shadowRadius = shadowRadius;
+    maskLayer.shadowOpacity = shadowOpacity;
+    maskLayer.shadowColor = shadowColor;
+    maskLayer.fillColor = fillColor;
+    maskLayer.shadowOffset = shadowOffset;
+    [self.layer insertSublayer:maskLayer atIndex:0];
+    return maskLayer;
 }
 @end

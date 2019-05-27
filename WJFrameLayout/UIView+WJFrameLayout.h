@@ -13,17 +13,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (WJFrameLayout)
 
-@property (nonatomic) CGFloat left;
-@property (nonatomic) CGFloat right;
-@property (nonatomic) CGFloat top;
-@property (nonatomic) CGFloat bottom;
-@property (nonatomic) CGFloat centerX;
-@property (nonatomic) CGFloat centerY;
-@property (nonatomic) CGPoint origin;
+@property (nonatomic, assign) CGFloat left;
+@property (nonatomic, assign) CGFloat right;
+@property (nonatomic, assign) CGFloat top;
+@property (nonatomic, assign) CGFloat bottom;
+@property (nonatomic, assign) CGFloat centerX;
+@property (nonatomic, assign) CGFloat centerY;
+@property (nonatomic, assign) CGPoint origin;
 
-@property (nonatomic) CGFloat width;
-@property (nonatomic) CGFloat height;
-@property (nonatomic) CGSize size;
+@property (nonatomic, assign) CGFloat width;
+@property (nonatomic, assign) CGFloat height;
+@property (nonatomic, assign) CGSize size;
 
 - (void)wj_makeFrameLayout:(void (^)(WJFrameLayoutMaker *make))block;
 
@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param corners 圆角位置
  @param radius 圆角半径
  */
-- (void)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius;
+- (CAShapeLayer *)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius;
 
 /**
  设置圆角和边框
@@ -53,7 +53,21 @@ NS_ASSUME_NONNULL_BEGIN
  @param borderWidth 边框大小
  @param borderColor 边框颜色
  */
-- (void)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;
+- (CAShapeLayer *)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius borderWidth:(CGFloat)borderWidth borderColor:(UIColor *)borderColor;
+
+/**
+ 设置圆角阴影
+
+ @param corners 圆角位置
+ @param radius 圆角半径
+ @param shadowRadius 阴影半径
+ @param shadowOpacity 阴影透明度
+ @param shadowColor 阴影颜色
+ @param fillColor 填充颜色
+ @param shadowOffset 阴影偏移
+ @return 添加的图层
+ */
+- (CAShapeLayer *)setRoundedCorners:(UIRectCorner)corners radius:(CGFloat)radius shadowRadius:(CGFloat)shadowRadius shadowOpacity:(float)shadowOpacity shadowColor:(CGColorRef)shadowColor fillColor:(CGColorRef)fillColor shadowOffset:(CGSize)shadowOffset;
 @end
 
 NS_ASSUME_NONNULL_END

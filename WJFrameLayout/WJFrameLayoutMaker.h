@@ -50,6 +50,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (WJFrameLayoutMaker * (^)(CGFloat offset))offset;
 
+/**
+ 设置偏移，对 origin、size、center 无效
+ */
+- (WJFrameLayoutMaker * (^)(CGFloat offset))wj_offset;
+
 @property (nonatomic, assign) WJFrameLayoutMaker *left;
 @property (nonatomic, assign) WJFrameLayoutMaker *right;
 @property (nonatomic, assign) WJFrameLayoutMaker *top;

@@ -50,7 +50,6 @@
 				83275D0D5D547FE1EAAA773E /* Pods-WJFrameLayoutDemo.debug.xcconfig */,
 				07F08638480BB6AB2F011797 /* Pods-WJFrameLayoutDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -340,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AUM2E6FK73;
 				INFOPLIST_FILE = WJFrameLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AUM2E6FK73;
 				INFOPLIST_FILE = WJFrameLayoutDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
