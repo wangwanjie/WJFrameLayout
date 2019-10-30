@@ -1,5 +1,5 @@
 PODS:
-  - WJFrameLayout (0.1.0)
+  - WJFrameLayout (0.3.0)
 
 DEPENDENCIES:
   - WJFrameLayout (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WJFrameLayout: ae98e666a413e0624aab109bf63ce721574a7c6f
+  WJFrameLayout: 15eb3ab40996a5d79ef67b7cc1d08180ae3e9671
 
 PODFILE CHECKSUM: 13dc125aa4cac4da3d978d1b3ea38dc516d9ef01
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4

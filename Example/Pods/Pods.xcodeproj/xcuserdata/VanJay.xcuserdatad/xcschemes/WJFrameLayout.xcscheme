@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "785904449E28FE1AB2DB415A90012E1B"
+               BlueprintIdentifier = "F181BD2BDDE12A3CAF379859840079D2"
                BuildableName = "libWJFrameLayout.a"
                BlueprintName = "WJFrameLayout"
                ReferencedContainer = "container:Pods.xcodeproj">

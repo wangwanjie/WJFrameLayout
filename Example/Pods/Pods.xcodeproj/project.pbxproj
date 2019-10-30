@@ -7,58 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D3DBC2CB8FDDB744ED2D9878A4DD999 /* WJFrameLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1E3DE829BC0C30C7957E47AC5B31AC /* WJFrameLayout-dummy.m */; };
-		15A77C74BD922A71364CABD8436588C0 /* WJFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 329C3413B272B0D8B02DD97B8F87E2D9 /* WJFrameLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D56B4B7391EB0FD91324BBAA81C3D1A /* WJFrameLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AE306CBBEB2BA959652E961E8512E14 /* WJFrameLayoutUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2610B050F9F067585328E77028CF42F3 /* WJFrameLayoutMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 713DD6311D1A9EF0BC164C854C1CEC66 /* WJFrameLayoutMaker.m */; };
-		6C08A8B72C32B2A1E5CD05CC5FE2DD07 /* Pods-WJFrameLayoutDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22576B830AAE4A1C497DE4A1E03E5B94 /* Pods-WJFrameLayoutDemo-dummy.m */; };
-		7CF1B4A55C7770A5AB7020A8F460DB92 /* WJFrameLayoutMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABC30B497C1DC1BE9DA3E3123793195 /* WJFrameLayoutMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		81EC1E3BCACBD8887A3EE509A53BE8CA /* UIView+WJFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC95F32F56DC521D3D4F719B922F5A9 /* UIView+WJFrameLayout.m */; };
-		C834AA2848454AA65B591EF16BDC23E2 /* UIView+WJFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFCF51A97F6901D2C59C17257456774 /* UIView+WJFrameLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0789B5F72DFD2EA2893BE43063C9BE42 /* Pods-WJFrameLayoutDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E9755D80EE9B5629886AFB84534E19 /* Pods-WJFrameLayoutDemo-dummy.m */; };
+		482D07CDD6F34CEBFA8DA3E9ADE77B2C /* CALayer+WJFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C36D02D73418CA5B48E29C9A62F5A3DF /* CALayer+WJFrameLayout.m */; };
+		63E50D960782B8E800E14F1DCCB02658 /* UIView+WJFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B448B81909F7594B2309F8499911A76 /* UIView+WJFrameLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		727B0070D5C7B9E988AD37969D74036F /* CALayer+WJFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE3FB2C2A9D6B425081DB4C71BB32BA /* CALayer+WJFrameLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		938144135DBFCF8EA59E49F5AFD98761 /* UIView+WJFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A32EDE99706502D0FD2C9524C6E4A40A /* UIView+WJFrameLayout.m */; };
+		94334ECA109F0AC016714429BCD85D70 /* WJFrameLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFE855D0C95CCD286B70268DCB44014 /* WJFrameLayout-dummy.m */; };
+		989F9D5F37C406ADBD2CE9F22C81CFCD /* WJFrameLayoutMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE21865C390C820D73435484C3DA07E /* WJFrameLayoutMaker.m */; };
+		B5F7A3E3146093FC3AD07AC8B61532CE /* WJFrameLayoutMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = FA50AB30FD0CAD1EC47FB0E95B99CC31 /* WJFrameLayoutMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D03BE3C92AEC2ED5B70A78624623669C /* WJFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 32328A7239A2E258A8DDEA97D48C0935 /* WJFrameLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0313D0D8EEFC3B780863CF39AEED9F7 /* WJFrameLayoutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F778FE8EF68A8AE281329009B645D18 /* WJFrameLayoutUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A446EB262BB29E5001C52129CEB48D2F /* PBXContainerItemProxy */ = {
+		ECA49BC89940C2E51032B8F0D9095882 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 785904449E28FE1AB2DB415A90012E1B;
+			remoteGlobalIDString = F181BD2BDDE12A3CAF379859840079D2;
 			remoteInfo = WJFrameLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B5CD38BE6861343BD5B053C0DA11D45 /* Pods-WJFrameLayoutDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJFrameLayoutDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0ED2C488CB2A3CB8449D8BCCA0758F5D /* Pods-WJFrameLayoutDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJFrameLayoutDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		1ABC30B497C1DC1BE9DA3E3123793195 /* WJFrameLayoutMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJFrameLayoutMaker.h; path = WJFrameLayout/WJFrameLayoutMaker.h; sourceTree = "<group>"; };
-		22576B830AAE4A1C497DE4A1E03E5B94 /* Pods-WJFrameLayoutDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJFrameLayoutDemo-dummy.m"; sourceTree = "<group>"; };
-		227C39BF69FBC80ACDE0EEC7730CDF50 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2D8869CDEA2121F36045A15299624360 /* Pods-WJFrameLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJFrameLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
-		2ED1B9A3D823D22CB5C68DE166089C60 /* libWJFrameLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWJFrameLayout.a; path = libWJFrameLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		329C3413B272B0D8B02DD97B8F87E2D9 /* WJFrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJFrameLayout.h; path = WJFrameLayout/WJFrameLayout.h; sourceTree = "<group>"; };
-		332DAB827A2CEFC131BF9AC3AB0B2E74 /* WJFrameLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJFrameLayout-prefix.pch"; sourceTree = "<group>"; };
-		451DF17B808AA5B4A1B4DDE487C3633A /* libPods-WJFrameLayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WJFrameLayoutDemo.a"; path = "libPods-WJFrameLayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DC95F32F56DC521D3D4F719B922F5A9 /* UIView+WJFrameLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WJFrameLayout.m"; path = "WJFrameLayout/UIView+WJFrameLayout.m"; sourceTree = "<group>"; };
-		713DD6311D1A9EF0BC164C854C1CEC66 /* WJFrameLayoutMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJFrameLayoutMaker.m; path = WJFrameLayout/WJFrameLayoutMaker.m; sourceTree = "<group>"; };
-		7AE306CBBEB2BA959652E961E8512E14 /* WJFrameLayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJFrameLayoutUtils.h; path = WJFrameLayout/WJFrameLayoutUtils.h; sourceTree = "<group>"; };
-		9D25A5A0C79590064A464C6029AD72C7 /* Pods-WJFrameLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJFrameLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		08F9C54FFD753FE41DF08ADA1D11B988 /* libWJFrameLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWJFrameLayout.a; path = libWJFrameLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A427FD1A14BAFFA71A37C9D45876174 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2AF53D01991CD679A2FBCF48F3A2E8A8 /* Pods-WJFrameLayoutDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJFrameLayoutDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F778FE8EF68A8AE281329009B645D18 /* WJFrameLayoutUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJFrameLayoutUtils.h; path = WJFrameLayout/WJFrameLayoutUtils.h; sourceTree = "<group>"; };
+		32328A7239A2E258A8DDEA97D48C0935 /* WJFrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJFrameLayout.h; path = WJFrameLayout/WJFrameLayout.h; sourceTree = "<group>"; };
+		3666EAD16BA6675CD1E03934EDE6EA11 /* Pods-WJFrameLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJFrameLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4B0F9734D07DFDBFA751DD7DC1BD0D85 /* WJFrameLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WJFrameLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4DE21865C390C820D73435484C3DA07E /* WJFrameLayoutMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJFrameLayoutMaker.m; path = WJFrameLayout/WJFrameLayoutMaker.m; sourceTree = "<group>"; };
+		4FE3FB2C2A9D6B425081DB4C71BB32BA /* CALayer+WJFrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+WJFrameLayout.h"; path = "WJFrameLayout/CALayer+WJFrameLayout.h"; sourceTree = "<group>"; };
+		6B80208DB69027345FDE7CCC660F768B /* Pods-WJFrameLayoutDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJFrameLayoutDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83E9755D80EE9B5629886AFB84534E19 /* Pods-WJFrameLayoutDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJFrameLayoutDemo-dummy.m"; sourceTree = "<group>"; };
+		8B448B81909F7594B2309F8499911A76 /* UIView+WJFrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WJFrameLayout.h"; path = "WJFrameLayout/UIView+WJFrameLayout.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3AA168488F24C9B4D36DCDAE4EC54DA /* WJFrameLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJFrameLayout.xcconfig; sourceTree = "<group>"; };
-		BB1E3DE829BC0C30C7957E47AC5B31AC /* WJFrameLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJFrameLayout-dummy.m"; sourceTree = "<group>"; };
-		C42FA19D2BC5C9DEC0D85D54A4718D93 /* WJFrameLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WJFrameLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D407405A77C43C6A0A9F74B3AEDBEDC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DAFCF51A97F6901D2C59C17257456774 /* UIView+WJFrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WJFrameLayout.h"; path = "WJFrameLayout/UIView+WJFrameLayout.h"; sourceTree = "<group>"; };
+		A32EDE99706502D0FD2C9524C6E4A40A /* UIView+WJFrameLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WJFrameLayout.m"; path = "WJFrameLayout/UIView+WJFrameLayout.m"; sourceTree = "<group>"; };
+		A35DB7BA4865C8F5B294D3115DD6BF24 /* WJFrameLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJFrameLayout-prefix.pch"; sourceTree = "<group>"; };
+		AE2C5C7764C8A1D2968399E9F738E45C /* WJFrameLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJFrameLayout.xcconfig; sourceTree = "<group>"; };
+		C36D02D73418CA5B48E29C9A62F5A3DF /* CALayer+WJFrameLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+WJFrameLayout.m"; path = "WJFrameLayout/CALayer+WJFrameLayout.m"; sourceTree = "<group>"; };
+		CC082624AF2D2719877FB454DB1C3C9A /* Pods-WJFrameLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJFrameLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DCFC67CD6FBF24DD43616CF20F4C08D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EBFE855D0C95CCD286B70268DCB44014 /* WJFrameLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJFrameLayout-dummy.m"; sourceTree = "<group>"; };
+		F2DF00EE6AAEE5E8A7F3986AA1F692D4 /* libPods-WJFrameLayoutDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WJFrameLayoutDemo.a"; path = "libPods-WJFrameLayoutDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA50AB30FD0CAD1EC47FB0E95B99CC31 /* WJFrameLayoutMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJFrameLayoutMaker.h; path = WJFrameLayout/WJFrameLayoutMaker.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D8675DDE2B56BF0A40D4F6C6B21FC69 /* Frameworks */ = {
+		3A4191E4AEF4029100BE0E5FE1972BF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CBC2D76325FA9BD8C3E1CFBADEA5E89 /* Frameworks */ = {
+		D86603E9A79523A977A57BA236D178F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,68 +72,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0970288D2EF088F14C177FCE510BA59E /* Pod */ = {
+		40956579BA53A1E94F71760BBE3253C3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D407405A77C43C6A0A9F74B3AEDBEDC4 /* LICENSE */,
-				227C39BF69FBC80ACDE0EEC7730CDF50 /* README.md */,
-				C42FA19D2BC5C9DEC0D85D54A4718D93 /* WJFrameLayout.podspec */,
+				0A427FD1A14BAFFA71A37C9D45876174 /* LICENSE */,
+				DCFC67CD6FBF24DD43616CF20F4C08D0 /* README.md */,
+				4B0F9734D07DFDBFA751DD7DC1BD0D85 /* WJFrameLayout.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		3C1FF4D4E57B9B305573EE52897ABD2C /* WJFrameLayout */ = {
+		64E43DD71A24B699EFC7ECC85B8925F7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DAFCF51A97F6901D2C59C17257456774 /* UIView+WJFrameLayout.h */,
-				6DC95F32F56DC521D3D4F719B922F5A9 /* UIView+WJFrameLayout.m */,
-				329C3413B272B0D8B02DD97B8F87E2D9 /* WJFrameLayout.h */,
-				1ABC30B497C1DC1BE9DA3E3123793195 /* WJFrameLayoutMaker.h */,
-				713DD6311D1A9EF0BC164C854C1CEC66 /* WJFrameLayoutMaker.m */,
-				7AE306CBBEB2BA959652E961E8512E14 /* WJFrameLayoutUtils.h */,
-				0970288D2EF088F14C177FCE510BA59E /* Pod */,
-				4D691C9630E605E76781518E88CEFB90 /* Support Files */,
-			);
-			name = WJFrameLayout;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3E4F683CEC46E659E7906B6A3EEE5D00 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3C1FF4D4E57B9B305573EE52897ABD2C /* WJFrameLayout */,
+				F40E5D1AF4B58477E78968D28E11B6FF /* WJFrameLayout */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4D691C9630E605E76781518E88CEFB90 /* Support Files */ = {
+		83E49A5A4C4E61F5DA7C49D0B0688642 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B3AA168488F24C9B4D36DCDAE4EC54DA /* WJFrameLayout.xcconfig */,
-				BB1E3DE829BC0C30C7957E47AC5B31AC /* WJFrameLayout-dummy.m */,
-				332DAB827A2CEFC131BF9AC3AB0B2E74 /* WJFrameLayout-prefix.pch */,
+				AE2C5C7764C8A1D2968399E9F738E45C /* WJFrameLayout.xcconfig */,
+				EBFE855D0C95CCD286B70268DCB44014 /* WJFrameLayout-dummy.m */,
+				A35DB7BA4865C8F5B294D3115DD6BF24 /* WJFrameLayout-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/WJFrameLayout";
 			sourceTree = "<group>";
 		};
-		7C4C7FC013BAB5FA59E41473E53BC50F /* Products */ = {
+		BDC8CA95A0A84C177407D21F6361FF95 /* Pods-WJFrameLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
-				451DF17B808AA5B4A1B4DDE487C3633A /* libPods-WJFrameLayoutDemo.a */,
-				2ED1B9A3D823D22CB5C68DE166089C60 /* libWJFrameLayout.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BFBD86D6EFCC40C746722382B43F63D5 /* Pods-WJFrameLayoutDemo */ = {
-			isa = PBXGroup;
-			children = (
-				0B5CD38BE6861343BD5B053C0DA11D45 /* Pods-WJFrameLayoutDemo-acknowledgements.markdown */,
-				0ED2C488CB2A3CB8449D8BCCA0758F5D /* Pods-WJFrameLayoutDemo-acknowledgements.plist */,
-				22576B830AAE4A1C497DE4A1E03E5B94 /* Pods-WJFrameLayoutDemo-dummy.m */,
-				9D25A5A0C79590064A464C6029AD72C7 /* Pods-WJFrameLayoutDemo.debug.xcconfig */,
-				2D8869CDEA2121F36045A15299624360 /* Pods-WJFrameLayoutDemo.release.xcconfig */,
+				6B80208DB69027345FDE7CCC660F768B /* Pods-WJFrameLayoutDemo-acknowledgements.markdown */,
+				2AF53D01991CD679A2FBCF48F3A2E8A8 /* Pods-WJFrameLayoutDemo-acknowledgements.plist */,
+				83E9755D80EE9B5629886AFB84534E19 /* Pods-WJFrameLayoutDemo-dummy.m */,
+				3666EAD16BA6675CD1E03934EDE6EA11 /* Pods-WJFrameLayoutDemo.debug.xcconfig */,
+				CC082624AF2D2719877FB454DB1C3C9A /* Pods-WJFrameLayoutDemo.release.xcconfig */,
 			);
 			name = "Pods-WJFrameLayoutDemo";
 			path = "Target Support Files/Pods-WJFrameLayoutDemo";
@@ -139,9 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3E4F683CEC46E659E7906B6A3EEE5D00 /* Development Pods */,
+				64E43DD71A24B699EFC7ECC85B8925F7 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				7C4C7FC013BAB5FA59E41473E53BC50F /* Products */,
+				E3CA6E8590A9061C45070205177B20C6 /* Products */,
 				E73CD468DD7025D4BBCE9D9918D64BF8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -153,29 +132,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E3CA6E8590A9061C45070205177B20C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2DF00EE6AAEE5E8A7F3986AA1F692D4 /* libPods-WJFrameLayoutDemo.a */,
+				08F9C54FFD753FE41DF08ADA1D11B988 /* libWJFrameLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E73CD468DD7025D4BBCE9D9918D64BF8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFBD86D6EFCC40C746722382B43F63D5 /* Pods-WJFrameLayoutDemo */,
+				BDC8CA95A0A84C177407D21F6361FF95 /* Pods-WJFrameLayoutDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F40E5D1AF4B58477E78968D28E11B6FF /* WJFrameLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3FB2C2A9D6B425081DB4C71BB32BA /* CALayer+WJFrameLayout.h */,
+				C36D02D73418CA5B48E29C9A62F5A3DF /* CALayer+WJFrameLayout.m */,
+				8B448B81909F7594B2309F8499911A76 /* UIView+WJFrameLayout.h */,
+				A32EDE99706502D0FD2C9524C6E4A40A /* UIView+WJFrameLayout.m */,
+				32328A7239A2E258A8DDEA97D48C0935 /* WJFrameLayout.h */,
+				FA50AB30FD0CAD1EC47FB0E95B99CC31 /* WJFrameLayoutMaker.h */,
+				4DE21865C390C820D73435484C3DA07E /* WJFrameLayoutMaker.m */,
+				2F778FE8EF68A8AE281329009B645D18 /* WJFrameLayoutUtils.h */,
+				40956579BA53A1E94F71760BBE3253C3 /* Pod */,
+				83E49A5A4C4E61F5DA7C49D0B0688642 /* Support Files */,
+			);
+			name = WJFrameLayout;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0D96423394ECBB71A1D4321FBCC5F196 /* Headers */ = {
+		529FE7F1C9682DF6509AD5EC7146715B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C834AA2848454AA65B591EF16BDC23E2 /* UIView+WJFrameLayout.h in Headers */,
-				15A77C74BD922A71364CABD8436588C0 /* WJFrameLayout.h in Headers */,
-				7CF1B4A55C7770A5AB7020A8F460DB92 /* WJFrameLayoutMaker.h in Headers */,
-				1D56B4B7391EB0FD91324BBAA81C3D1A /* WJFrameLayoutUtils.h in Headers */,
+				727B0070D5C7B9E988AD37969D74036F /* CALayer+WJFrameLayout.h in Headers */,
+				63E50D960782B8E800E14F1DCCB02658 /* UIView+WJFrameLayout.h in Headers */,
+				D03BE3C92AEC2ED5B70A78624623669C /* WJFrameLayout.h in Headers */,
+				B5F7A3E3146093FC3AD07AC8B61532CE /* WJFrameLayoutMaker.h in Headers */,
+				E0313D0D8EEFC3B780863CF39AEED9F7 /* WJFrameLayoutUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B56C66BCED0E4B688F583835F9E7A1F /* Headers */ = {
+		FF362AFFA10F2CE5B6A6678BA22C1D60 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -185,31 +192,31 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		553FDA9F72BBE54DFEFF0842EB365E43 /* Pods-WJFrameLayoutDemo */ = {
+		BCB9ABFAEF50D33908E8AD4D166B1F32 /* Pods-WJFrameLayoutDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AE76CCFD9B7413B12A6D6197C4FDA1E /* Build configuration list for PBXNativeTarget "Pods-WJFrameLayoutDemo" */;
+			buildConfigurationList = 897BB70A768850DEF57C88A29EAF129D /* Build configuration list for PBXNativeTarget "Pods-WJFrameLayoutDemo" */;
 			buildPhases = (
-				5B56C66BCED0E4B688F583835F9E7A1F /* Headers */,
-				C9672C85223612520DB86B6C08ECB357 /* Sources */,
-				6D8675DDE2B56BF0A40D4F6C6B21FC69 /* Frameworks */,
+				FF362AFFA10F2CE5B6A6678BA22C1D60 /* Headers */,
+				3F3D83CA9738DBEA5F27C20E3388FD81 /* Sources */,
+				D86603E9A79523A977A57BA236D178F1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2FF629C74F0787A00B4449DD6583FD9A /* PBXTargetDependency */,
+				4E97C28591E791000251F16D8EA179AF /* PBXTargetDependency */,
 			);
 			name = "Pods-WJFrameLayoutDemo";
 			productName = "Pods-WJFrameLayoutDemo";
-			productReference = 451DF17B808AA5B4A1B4DDE487C3633A /* libPods-WJFrameLayoutDemo.a */;
+			productReference = F2DF00EE6AAEE5E8A7F3986AA1F692D4 /* libPods-WJFrameLayoutDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		785904449E28FE1AB2DB415A90012E1B /* WJFrameLayout */ = {
+		F181BD2BDDE12A3CAF379859840079D2 /* WJFrameLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D27D7D254283A15FCCC07C4617113303 /* Build configuration list for PBXNativeTarget "WJFrameLayout" */;
+			buildConfigurationList = B9BB8B9E7F6FB8CEEEC84E7DE463AB3A /* Build configuration list for PBXNativeTarget "WJFrameLayout" */;
 			buildPhases = (
-				0D96423394ECBB71A1D4321FBCC5F196 /* Headers */,
-				2358752B33E70B8FBDC5634D2E5306ED /* Sources */,
-				8CBC2D76325FA9BD8C3E1CFBADEA5E89 /* Frameworks */,
+				529FE7F1C9682DF6509AD5EC7146715B /* Headers */,
+				9275F33003CDD3AA4ABE9D4E201E6EB4 /* Sources */,
+				3A4191E4AEF4029100BE0E5FE1972BF6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,7 +224,7 @@
 			);
 			name = WJFrameLayout;
 			productName = WJFrameLayout;
-			productReference = 2ED1B9A3D823D22CB5C68DE166089C60 /* libWJFrameLayout.a */;
+			productReference = 08F9C54FFD753FE41DF08ADA1D11B988 /* libWJFrameLayout.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -226,61 +233,62 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7C4C7FC013BAB5FA59E41473E53BC50F /* Products */;
+			productRefGroup = E3CA6E8590A9061C45070205177B20C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				553FDA9F72BBE54DFEFF0842EB365E43 /* Pods-WJFrameLayoutDemo */,
-				785904449E28FE1AB2DB415A90012E1B /* WJFrameLayout */,
+				BCB9ABFAEF50D33908E8AD4D166B1F32 /* Pods-WJFrameLayoutDemo */,
+				F181BD2BDDE12A3CAF379859840079D2 /* WJFrameLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2358752B33E70B8FBDC5634D2E5306ED /* Sources */ = {
+		3F3D83CA9738DBEA5F27C20E3388FD81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81EC1E3BCACBD8887A3EE509A53BE8CA /* UIView+WJFrameLayout.m in Sources */,
-				0D3DBC2CB8FDDB744ED2D9878A4DD999 /* WJFrameLayout-dummy.m in Sources */,
-				2610B050F9F067585328E77028CF42F3 /* WJFrameLayoutMaker.m in Sources */,
+				0789B5F72DFD2EA2893BE43063C9BE42 /* Pods-WJFrameLayoutDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9672C85223612520DB86B6C08ECB357 /* Sources */ = {
+		9275F33003CDD3AA4ABE9D4E201E6EB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C08A8B72C32B2A1E5CD05CC5FE2DD07 /* Pods-WJFrameLayoutDemo-dummy.m in Sources */,
+				482D07CDD6F34CEBFA8DA3E9ADE77B2C /* CALayer+WJFrameLayout.m in Sources */,
+				938144135DBFCF8EA59E49F5AFD98761 /* UIView+WJFrameLayout.m in Sources */,
+				94334ECA109F0AC016714429BCD85D70 /* WJFrameLayout-dummy.m in Sources */,
+				989F9D5F37C406ADBD2CE9F22C81CFCD /* WJFrameLayoutMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FF629C74F0787A00B4449DD6583FD9A /* PBXTargetDependency */ = {
+		4E97C28591E791000251F16D8EA179AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WJFrameLayout;
-			target = 785904449E28FE1AB2DB415A90012E1B /* WJFrameLayout */;
-			targetProxy = A446EB262BB29E5001C52129CEB48D2F /* PBXContainerItemProxy */;
+			target = F181BD2BDDE12A3CAF379859840079D2 /* WJFrameLayout */;
+			targetProxy = ECA49BC89940C2E51032B8F0D9095882 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0B127DD2E5AF01BE1B0D27FD0AB4F91A /* Debug */ = {
+		0BC021F3EEF87D6D3249251F3EADC9A0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D25A5A0C79590064A464C6029AD72C7 /* Pods-WJFrameLayoutDemo.debug.xcconfig */;
+			baseConfigurationReference = CC082624AF2D2719877FB454DB1C3C9A /* Pods-WJFrameLayoutDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -296,10 +304,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		15A0972FB8D234E69FE9E4E7BE707E50 /* Debug */ = {
+		31DC0D02B96D5065DFE38CFD92E96AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,37 +367,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		211DEFFB65A6EF5E886E5EEADE71FF22 /* Debug */ = {
+		36019BC83B36353953635ACA84B07B6E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3AA168488F24C9B4D36DCDAE4EC54DA /* WJFrameLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WJFrameLayout/WJFrameLayout-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WJFrameLayout;
-				PRODUCT_NAME = WJFrameLayout;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		589ADC7C8B3745F27533C974DAD645D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D8869CDEA2121F36045A15299624360 /* Pods-WJFrameLayoutDemo.release.xcconfig */;
+			baseConfigurationReference = 3666EAD16BA6675CD1E03934EDE6EA11 /* Pods-WJFrameLayoutDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -404,13 +390,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		76EA1C67C32E56C9D07F9C1D2FB7B2D8 /* Release */ = {
+		37E50006DCF8010F379C91D8E942DD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3AA168488F24C9B4D36DCDAE4EC54DA /* WJFrameLayout.xcconfig */;
+			baseConfigurationReference = AE2C5C7764C8A1D2968399E9F738E45C /* WJFrameLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WJFrameLayout/WJFrameLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WJFrameLayout;
+				PRODUCT_NAME = WJFrameLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D068ABF77950A4A302EFEABC50A4E370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2C5C7764C8A1D2968399E9F738E45C /* WJFrameLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -432,7 +440,7 @@
 			};
 			name = Release;
 		};
-		86D7156F08CA22606B6E3F569D65785C /* Release */ = {
+		F6991AB26C9E59A9D3BE85E2B9FD70B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -487,7 +495,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -495,29 +503,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AE76CCFD9B7413B12A6D6197C4FDA1E /* Build configuration list for PBXNativeTarget "Pods-WJFrameLayoutDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0B127DD2E5AF01BE1B0D27FD0AB4F91A /* Debug */,
-				589ADC7C8B3745F27533C974DAD645D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15A0972FB8D234E69FE9E4E7BE707E50 /* Debug */,
-				86D7156F08CA22606B6E3F569D65785C /* Release */,
+				31DC0D02B96D5065DFE38CFD92E96AE0 /* Debug */,
+				F6991AB26C9E59A9D3BE85E2B9FD70B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D27D7D254283A15FCCC07C4617113303 /* Build configuration list for PBXNativeTarget "WJFrameLayout" */ = {
+		897BB70A768850DEF57C88A29EAF129D /* Build configuration list for PBXNativeTarget "Pods-WJFrameLayoutDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				211DEFFB65A6EF5E886E5EEADE71FF22 /* Debug */,
-				76EA1C67C32E56C9D07F9C1D2FB7B2D8 /* Release */,
+				36019BC83B36353953635ACA84B07B6E /* Debug */,
+				0BC021F3EEF87D6D3249251F3EADC9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BB8B9E7F6FB8CEEEC84E7DE463AB3A /* Build configuration list for PBXNativeTarget "WJFrameLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E50006DCF8010F379C91D8E942DD4E /* Debug */,
+				D068ABF77950A4A302EFEABC50A4E370 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

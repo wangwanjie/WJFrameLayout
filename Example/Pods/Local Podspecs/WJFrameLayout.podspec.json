@@ -1,6 +1,6 @@
 {
   "name": "WJFrameLayout",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "An iOS layout framework based on Frame layout. The way using it is like Masonry",
   "description": "An iOS layout framework based on Frame layout. The way using it is like Masonry",
   "homepage": "https://github.com/wangwanjie/WJFrameLayout",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wangwanjie/WJFrameLayout.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "6.0"

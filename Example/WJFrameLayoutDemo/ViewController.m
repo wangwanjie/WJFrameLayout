@@ -15,6 +15,7 @@
 @property (nonatomic, strong) UIView *blackView;
 @property (nonatomic, strong) UIView *orangeView;
 @property (nonatomic, strong) UILabel *nameLabel;
+@property (nonatomic, strong) CALayer *greenLayer;
 @end
 
 @implementation ViewController
@@ -56,6 +57,13 @@
     self.nameLabel.textColor = [UIColor whiteColor];
     self.nameLabel.font = [UIFont systemFontOfSize:18.f];
     [self.view addSubview:self.nameLabel];
+    
+    [self.view.layer addSublayer:({
+        CALayer *layer = [CALayer new];
+        layer.backgroundColor = UIColor.greenColor.CGColor;
+        self.greenLayer = layer;
+        layer;
+    })];
 }
 
 - (void)viewDidLayoutSubviews {
@@ -69,6 +77,12 @@
         make.right.equalTo(@(self.view.right)).offset(-20.f);
         make.height.wj_equalTo(@(40.f));
         make.top.equalToValue(self.view.top).offset(40.f);
+    }];
+    
+    [self.greenLayer wj_makeFrameLayout:^(WJFrameLayoutMaker * _Nonnull make) {
+        make.centerX.wj_equalTo(self.view.centerX);
+        make.top.equalToValue(self.redView.bottom).offset(20.f);
+        make.size.wj_equalTo(CGSizeMake(200, 50));
     }];
 
     [self.blueView wj_makeFrameLayout:^(WJFrameLayoutMaker *_Nonnull make) {
