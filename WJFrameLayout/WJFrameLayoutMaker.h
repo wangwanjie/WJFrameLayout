@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface WJFrameLayoutMaker : NSObject
 
 - (instancetype)initWithView:(UIView *)view;
+- (instancetype)initWithLayer:(CALayer *)layer;
 
 /**
  使用此方法参数需包装成 NSValue，使用 @(value) 或者 [NSValue valueWith:xxx] 麻烦，请使用 equalToValue 方法
@@ -68,6 +69,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) WJFrameLayoutMaker *size;
 
 - (void)render;
+- (void)renderLayerFrame;
 
 @end
 

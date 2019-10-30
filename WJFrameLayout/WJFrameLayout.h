@@ -9,6 +9,7 @@
 #ifndef WJFrameLayout_h
 #define WJFrameLayout_h
 
+#import "CALayer+WJFrameLayout.h"
 #import "UIView+WJFrameLayout.h"
 #import "WJFrameLayoutMaker.h"
 #import "WJFrameLayoutUtils.h"

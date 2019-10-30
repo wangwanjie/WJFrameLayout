@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'WJFrameLayout'
-  s.version          = '0.3.0'
-  s.summary          = 'An iOS layout framework based on Frame layout. The way using it is like Masonry'
+  s.version          = '0.4.0'
+  s.summary          = 'An iOS layout framework based on Frame layout. The way using it is like Masonry. CALayer and UIView are both supported. '
   s.description      = <<-DESC
-An iOS layout framework based on Frame layout. The way using it is like Masonry
+An iOS layout framework based on Frame layout. The way using it is like Masonry. CALayer and UIView are both supported. 
                         DESC
 
   s.homepage         = 'https://github.com/wangwanjie/WJFrameLayout'

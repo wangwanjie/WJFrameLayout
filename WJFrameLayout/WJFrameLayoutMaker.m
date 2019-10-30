@@ -8,6 +8,7 @@
 //
 
 #import "WJFrameLayoutMaker.h"
+#import "CALayer+WJFrameLayout.h"
 #import "UIView+WJFrameLayout.h"
 #import "WJFrameLayoutUtils.h"
 
@@ -35,6 +36,7 @@ static NSString *const kWJFrameLayoutKeyCenter = @"kWJFrameLayoutKeyCenter";
 @interface WJFrameLayoutMaker ()
 
 @property (nonatomic, strong) UIView *view;
+@property (nonatomic, strong) CALayer *layer;
 @property (nonatomic, copy) NSString *key;
 
 @property (nonatomic, assign) WJFrameLayoutMakerType type;
@@ -59,18 +61,32 @@ static NSString *const kWJFrameLayoutKeyCenter = @"kWJFrameLayoutKeyCenter";
     self = [super init];
     if (self) {
         self.view = view;
-        self.key = kWJFrameLayoutKeyDefault;
-
-        self.frameWidth = -0.1f;
-        self.frameHeight = -0.1f;
-
-        self.frameCenterX = -0.1f;
-        self.frameCenterY = -0.1f;
-
-        self.layoutHorizontal = [[NSMutableDictionary alloc] initWithCapacity:0];
-        self.layoutVertical = [[NSMutableDictionary alloc] initWithCapacity:0];
+        [self setup];
     }
     return self;
+}
+
+- (instancetype)initWithLayer:(CALayer *)layer {
+    self = [super init];
+    if (self) {
+        self.layer = layer;
+        [self setup];
+    }
+    return self;
+}
+
+- (void)setup {
+
+    self.key = kWJFrameLayoutKeyDefault;
+
+    self.frameWidth = -0.1f;
+    self.frameHeight = -0.1f;
+
+    self.frameCenterX = -0.1f;
+    self.frameCenterY = -0.1f;
+
+    self.layoutHorizontal = [[NSMutableDictionary alloc] initWithCapacity:0];
+    self.layoutVertical = [[NSMutableDictionary alloc] initWithCapacity:0];
 }
 
 - (WJFrameLayoutMaker *)width {
@@ -281,7 +297,6 @@ static NSString *const kWJFrameLayoutKeyCenter = @"kWJFrameLayoutKeyCenter";
         }
 
     } else if (right) {
-
         self.frameLeft = [right floatValue] - self.view.width;
     }
 
@@ -316,6 +331,73 @@ static NSString *const kWJFrameLayoutKeyCenter = @"kWJFrameLayoutKeyCenter";
 
     if (centerY) {
         self.view.centerY = [centerY floatValue];
+    }
+}
+
+- (void)renderLayerFrame {
+
+    id left = [self.layoutHorizontal objectForKey:kWJFrameLayoutKeyLeft];
+    id right = [self.layoutHorizontal objectForKey:kWJFrameLayoutKeyRight];
+    id width = [self.layoutHorizontal objectForKey:kWJFrameLayoutKeyWidth];
+    id centerX = [self.layoutHorizontal objectForKey:kWJFrameLayoutKeyCenterX];
+
+    id top = [self.layoutVertical objectForKey:kWJFrameLayoutKeyTop];
+    id bottom = [self.layoutVertical objectForKey:kWJFrameLayoutKeyBottom];
+    id height = [self.layoutVertical objectForKey:kWJFrameLayoutKeyHeight];
+    id centerY = [self.layoutVertical objectForKey:kWJFrameLayoutKeyCenterY];
+
+    if (left) {
+        self.frameLeft = [left floatValue];
+
+        if (width) {
+            self.frameWidth = [width floatValue];
+        } else if (right) {
+            self.frameWidth = [right floatValue] - [left floatValue];
+        } else {
+        }
+    } else if (width) {
+        self.frameWidth = [width floatValue];
+
+        if (right) {
+            self.frameLeft = [right floatValue] - [width floatValue];
+        } else {
+        }
+
+    } else if (right) {
+        self.frameLeft = [right floatValue] - self.layer.wj_width;
+    }
+
+    if (top) {
+        self.frameTop = [top floatValue];
+        if (height) {
+            self.frameHeight = [height floatValue];
+        } else if (bottom) {
+            self.frameHeight = [bottom floatValue] - [top floatValue];
+        } else {
+        }
+    } else if (height) {
+        self.frameHeight = [height floatValue];
+
+        if (bottom) {
+            self.frameTop = [bottom floatValue] - [height floatValue];
+        } else {
+        }
+
+    } else if (bottom) {
+        self.frameTop = [bottom floatValue] - self.layer.wj_height;
+    }
+
+    self.layer.frame = CGRectMake(self.frameLeft,
+                                  self.frameTop,
+                                  self.frameWidth > 0 ? self.frameWidth : self.layer.wj_width,
+                                  self.frameHeight > 0 ? self.frameHeight : self.layer.wj_height);
+
+    if (centerX) {
+        self.layer.wj_centerX = [centerX floatValue];
+    }
+
+    if (centerY) {
+        self.layer.wj_centerY = [centerY floatValue];
     }
 }
 @end
