@@ -6,7 +6,7 @@
 //  Copyright © 2019 chaos network technology. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  *  Given a scalar or struct value, wraps it in NSValue
